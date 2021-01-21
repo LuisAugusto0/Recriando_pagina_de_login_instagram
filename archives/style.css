@@ -1,2 +1,41 @@
-
-
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+	text-decoration: none;		
+	font-family: sans-serif;
+	font-size: 14px;
+}
+body {
+				width: 100%;
+				min-height: 100vh;
+				background-color: rgb(250,250,250);
+				justify-content: center;
+				display: flex;
+}
+.wrapper {
+				align-items: center;
+				justify-content: start;
+				width: 60%;
+				height: 100vh;
+				display: flex;
+}
+.phone {
+				justify-content: center;
+				width: 50%;
+				align-content: center;
+		    display: flex;
+}
+#logo {
+				height: 60px;
+}
+.porfile-photo {
+				height: 40px;
+}
+.app_download {
+				height: 40px;
+}
+.group1 {
+				align-items: center;
+				display: flex;
+}
