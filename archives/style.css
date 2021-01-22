@@ -4,7 +4,7 @@
 	box-sizing: border-box;	
 	text-decoration: none;		
 	font-family: sans-serif;
-	font-size: 14px;
+	font-size: 10px;
 }
 body {
 				width: 100%;
@@ -17,7 +17,7 @@ body {
 				align-items: center;
 				justify-content: start;
 				width: 60%;
-				height: 100vh;
+				height: 100vh;								
 				display: flex;
 }
 .phone {
@@ -37,5 +37,19 @@ body {
 }
 .group1 {
 				align-items: center;
+				align-content: center;
+				display: grid;
+				justify-content: space-around;
+}
+.group2 {
+				align-items: center;
+				align-content: center;
 				display: flex;
+				justify-content: space-around;
+}
+.blocks {
+			  align-items: center;
+				align-content: center;
+				display: grid;
+				justify-content: space-around;
 }
