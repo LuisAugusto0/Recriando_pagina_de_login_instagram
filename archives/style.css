@@ -4,7 +4,7 @@
 	box-sizing: border-box;	
 	text-decoration: none;		
 	font-family: sans-serif;
-	font-size: 10px;
+	font-size: 15px;
 }
 body {
 				width: 100%;
@@ -17,7 +17,7 @@ body {
 				align-items: center;
 				justify-content: start;
 				width: 60%;
-				height: 100vh;								
+				max-height: 100vh;								
 				display: flex;
 }
 .phone {
@@ -35,21 +35,97 @@ body {
 .app_download {
 				height: 40px;
 }
-.group1 {
-				align-items: center;
+.blocks {
+			  align-items: center;
 				align-content: center;
-				display: grid;
+				display: flex;
+				flex-direction: column;
 				justify-content: space-around;
 }
-.group2 {
+.group1 {
 				align-items: center;
 				align-content: center;
 				display: flex;
 				justify-content: space-around;
+				flex-direction: column;
+				width: 345px;
+				height: 345px;
+				padding: 20px 0;
+				border: 1px solid lightgray;
+				background-color: white;
+				margin-bottom: 10px;
+				margin-left: 15px;
 }
-.blocks {
-			  align-items: center;
-				align-content: center;
-				display: grid;
-				justify-content: space-around;
+
+
+.group2 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				background-color: white;
+				width: 345px;
+				height: 90px;
+				padding: 1.3rem 0;
+				border: 1px solid lightgray;
+				margin-left: 15px;
 }
+#logo {
+				height: 50px;
+}
+#porfile-photo {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 50%;
+				height: 90px;
+				margin-top: -20px;
+}
+.login {
+				background-color: #0095f6;
+				color: white;
+				padding: 8px;
+				border-radius: 4px;
+				font-weight: bolder;
+}
+.logout {
+				color: #0095f6;
+				margin-top: -15px;
+				font-weight: bolder;
+				
+}
+.get-app {
+				margin-top: 20px;
+				margin-bottom: 20px;
+}
+
+/* media queries */
+
+@media (max-width: 1144px){
+				.wrapper {
+												width: 95%;
+				}
+				.phone {
+								margin-right: -20px;
+				}
+}
+
+@media (max-width: 650px){
+				.wrapper {
+								width: 95%;
+				}
+				.phone {
+								display: none;
+				}
+				.group1 {
+			  				margin-left: 25%;
+			  				margin-right: 25%;
+				}
+				.group2 {
+			  				margin-left: 50%;
+}
+
+				.get-the-app {
+								margin-left: 50%;
+								
+				}
